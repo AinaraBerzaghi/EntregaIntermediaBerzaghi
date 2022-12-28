@@ -22,11 +22,11 @@
         <!-- Navigation-->
         <nav class="navbar navbar-light bg-light static-top">
             <div class="container">INICIO</a>
-                <a class="btn btn-primary" href= "{% url 'inicio' %}" >INICIO </a>
-                <a class="btn btn-primary" href= "{% url 'cursos' %}" >Cursos </a>
-                <a class="btn btn-primary" href= "{% url 'entregables' %}" >Entregables </a>
-                <a class="btn btn-primary" href= "{% url 'estudiantes' %}" >Estudiantes </a>
-                <a class="btn btn-primary" href= "{% url 'profesores' %}" >Profesores </a>
+
+                <a class="btn btn-primary" href= {% url 'inicio' %} >Ver cursos </a>
+                <a class="btn btn-primary" href= {% url 'entregables' %} >Ver entregables </a>
+                <a class="btn btn-primary" href= {% url 'estudiantes' %} >Ver estudiantes </a>
+                <a class="btn btn-primary" href= {% url 'profesores' %} >Ver profesores </a>
 
             </div>
         </nav>
@@ -38,21 +38,14 @@
                         <div class="text-center text-white">
                             <!-- Page heading-->
                             <h1 class="mb-5">Bienvenidos al primer sistema de Ainara</h1>
-                            <!-- Signup form-->
-                            <!-- * * * * * * * * * * * * * * *-->
-                            <!-- * * SB Forms Contact Form * *-->
-                            <!-- * * * * * * * * * * * * * * *-->
-                            <!-- This form is pre-integrated with SB Forms.-->
-                            <!-- To make this form functional, sign up at-->
-                            <!-- https://startbootstrap.com/solution/contact-forms-->
-                            <!-- to get an API token!-->
+                            
+
                             
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-
        
                     </div>
                 </div>
